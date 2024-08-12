@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Screening</title>
+</head>
+<body>
+    <h1>Resume Screening</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="resume">Upload Resume (PDF):</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required><br><br>
+        <label for="job-description">Upload Job Description (DOCX):</label>
+        <input type="file" id="job-description" name="job-description" accept=".docx" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
